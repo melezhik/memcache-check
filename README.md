@@ -1,18 +1,18 @@
 # SYNOPSIS
 
-Checks if memcache server is healthy.
+Checks if memcached server is healthy.
 
 # Build status
 
-[![Build Status](https://travis-ci.org/melezhik/memcache-check.svg)](https://travis-ci.org/melezhik/memcache-check)
+[![Build Status](https://travis-ci.org/melezhik/memcached-check.svg)](https://travis-ci.org/melezhik/memcached-check)
 
 # INSTALL
 
-    $ sparrow plg install memcache-check
+    $ sparrow plg install memcached-check
 
 # RUN
 
-    $ sparrow plg run memcache-check
+    $ sparrow plg run memcached-check
 
 # AUTHOR
 

@@ -1,5 +1,5 @@
 services:
-  - mysql
+  - memcached
 
 language: "perl"
 perl:
@@ -10,7 +10,7 @@ before_install:
 
 install:
   - sparrow index update
-  - sparrow plg install mysql-check
+  - sparrow plg install memcached-check
 
 script:
-  - sparrow plg run mysql-check
+  - sparrow plg run memcached-check
